@@ -1,0 +1,14 @@
+.termos-bg{
+    background-color: var(--cor-0);
+}
+
+.termos h2{
+    margin: 40px 0px;    
+    font-weight: 600;
+}
+
+.termos p{
+    max-width: 80ch;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}

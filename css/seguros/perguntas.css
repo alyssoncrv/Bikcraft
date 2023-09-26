@@ -1,0 +1,30 @@
+.perguntas h2{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.perguntas  div{
+    background-color: var(--cor-2);
+    border-radius: 7px;
+    padding: 30px 10px;
+}
+.perguntas dt{
+    margin-bottom: 16px;
+    font-weight: 800;
+
+}
+
+.perguntas dd{
+    max-width: 88ch;
+    margin-left: 28px;
+    font-weight: 200;
+}
+
+.perguntas dt::before{
+    content: "";
+    height: 8px;
+    width: 16px;
+    display:inline-block;
+    background-color: var(--cor-p1);
+    margin-bottom: 2px;
+    margin-right: 10px;
+}

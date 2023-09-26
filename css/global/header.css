@@ -1,0 +1,158 @@
+.header-bg{
+    background-color: var(--cor-12);
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.header-menu a{
+    display: inline-block;
+    padding: 16px 0px;
+    position: relative;
+    }
+
+.header-menu a:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%; 
+    background-color: var(--cor-0);
+    margin-top: 4px;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+}
+.header-menu a:hover:after{
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+
+@media (max-width: 800px){
+    .header-menu{
+        gap: 20px;
+    }
+    .header-menu a{
+        background-color: var(--cor-11);
+        padding: 12px 16px;
+        border-radius: 5px;
+        
+    }  
+    .header-menu a:hover{
+        background-color: var(--cor-10);
+    } 
+    .header-menu a:after{
+        display: none;
+    }    
+}
+
+@media (max-width: 600px){
+    .header-menu{
+        gap: 12px;
+    }
+    .header-menu a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+
+.introducao-bg{
+    background-color: #000000;
+    color: white;
+    box-shadow: inset 0 -120px 0 white;
+}
+
+.introducao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+.introducao img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.introducao-conteudo{
+    align-self: flex-end;
+    padding-bottom: 200px;
+}
+
+.introducao h1{
+    margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 1.125;
+}
+.introducao h1 span{
+    color: #ffbb00;
+}
+.introducao p{
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #b2b2b2;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.introducao-conteudo a {
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient( #ffbf00, #f2a50c);
+    border-radius: 4px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    color: #332200;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-weight: 600;
+}   
+
+.introducao a:hover{
+    background: linear-gradient( #ffb60d, #e59317);
+}
+@media (max-width: 800px){
+    .header-menu{
+        gap: 20px;
+    }
+    .header-menu a{
+        background-color: #111111;
+        padding: 12px 16px;
+        border-radius: 5px;
+        
+    }  
+    .header-menu a:hover{
+        background-color: #2e2e2e;
+    } 
+    .header-menu a:after{
+        display: none;
+    }    
+}
+
+@media (max-width: 600px){
+    .header-menu{
+        gap: 12px;
+    }
+    .header-menu a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}

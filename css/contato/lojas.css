@@ -1,0 +1,66 @@
+.lojas-bg{
+    background: var(--cor-1);
+}
+.lojas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px  40px;
+    padding: 60px;
+}
+.lojas-item{
+    background: var(--cor-0);
+    border-radius: 4px;
+}
+.lojas-conteudo h3{
+    padding: 20px 0px;
+
+}
+.lojas-conteudo{
+    margin-left: 20px;
+}
+.lojas-dados{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.lojas-dados a {
+    display: block;
+}
+.lojas-dados a, p{
+    margin-bottom: 10px;
+}
+.lojas-dados-item{
+    position: relative;
+}
+.lojas-dados-item::before{
+    content: "";
+    height: 60px;
+    width: 1px;
+    background: var(--cor-3);
+    display: inline-block;
+    position: absolute;
+    left:-10px;
+}
+
+.lojas-horario{
+    font-weight: 400;
+    background: url(../../img/icones/horario.svg)no-repeat;    
+}
+.lojas-horario p{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+@media(max-width: 800px){
+    .lojas {
+        grid-template-columns: 1fr;
+        gap: 40px   ;
+    }
+}
+
+@media(max-width:600px){
+    .lojas-dados{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
