@@ -1,6 +1,6 @@
 <h2>🔖 Description</h2>
 <p>🚴‍♀️ Bikcraft is an electric bicycle sales website.</p>
-<p>You can view the site <a href=" " target="_blank">here</p>
+<p>You can view the site <a href="https://bikcraft-alyssoncarval.vercel.app/" target="_blank">here</p>
 
 <h2>🚀 Stack</h2>
 <div style="display: inline_block">
@@ -18,6 +18,7 @@
 
 <h2>📷 Screenshots:</h2>
 
-<img src="/public/screenshot.png">
+<img src="/img/screenshot.png">
+
 
 Made with 🤍 by <a href="https://github.com/alyssoncarval/" target="_blank">Alysson Carvalho</a></p>
