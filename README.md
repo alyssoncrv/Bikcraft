@@ -18,6 +18,3 @@
 <h2>📷 Screenshots:</h2>
 
 <img src="/img/screenshot.png">
-
-
-Made with 🤍 by <a href="https://github.com/alyssoncarval/" target="_blank">Alysson Carvalho</a></p>
